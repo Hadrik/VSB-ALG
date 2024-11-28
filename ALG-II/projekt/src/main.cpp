@@ -14,6 +14,6 @@ int main(int argc, char const *argv[]) {
 
   std::cout << "\nNacteny graf:\n";
   GraphLoader::print(g);
-  std::cout << "Graph " << (GraphTools::isBiparte(g) ? "JE" : "NENI") << " bipartitni." << std::endl;
+  std::cout << "Graf " << (GraphTools::isBiparte(g) ? "JE" : "NENI") << " bipartitni." << std::endl;
   return 0;
 }
