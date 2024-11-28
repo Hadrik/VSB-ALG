@@ -1,7 +1,7 @@
 CC = g++
-CFLAGS = -g -Wall -Wextra -Wno-unused-result -Werror=uninitialized -Werror=return-type -Werror=vla #-Wdangling-pointer=1
+CFLAGS = -g -fsanitize=address -Wall -Wextra -Wno-unused-result -Werror=uninitialized -Werror=return-type -Werror=vla #-Wdangling-pointer=1
 
-TARGET = main
+TARGET = biparte
 
 SRCDIR = src
 OBJDIR = obj
